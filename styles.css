@@ -172,7 +172,7 @@
     text-decoration: none;
 
     /* Add transition properties */
-    transition: background-color 0.5s ease-in, color 0.5s ease-in; /* Hover duration */
+    transition: background-color 3s ease-out, color 3s ease-out; /* Hover duration */
 
 
 }
@@ -182,7 +182,7 @@
     color: #fff;
 
     /* Specify the transition duration when the hover ends */
-    transition: background-color 3s ease-out, color 3s ease-out; /* Return duration */
+    transition: background-color 0.5s ease-in, color 0.5s ease-in; /* Return duration */
 
 }
 
